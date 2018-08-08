@@ -200,7 +200,7 @@
 
 
 	body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
-		color: #51873a;
+		color: #565656;
 	}
 
 	.navigator .slider-control.left:before,
@@ -209,7 +209,7 @@
    		position: absolute;
     	margin-top: 0;
     	background: none;
-    	color: #51873a;
+    	color: #565656;
    		border-radius: 120px;
     	width: 20px;
     	height: 20px;
@@ -322,15 +322,15 @@
 
 .content_type_clase_ingenio .logo-publisher {
     content: " ";
-    background-image: url(/images/ingenio.png)!important;
-    height: 52px;
+    background-image: url(images/ingenio.png)!important;
+    height: 55px;
     background-repeat: no-repeat;
-    width: 134px;
+    width: 184px;
     margin-left: -100px;
     margin-right: 60px;
     float: left;
     margin-top: -10px;
-    background-size: cover;
+    background-size: contain;
     display: block;
 }
 
@@ -360,12 +360,12 @@
 	}
 
 	.content_type_clase_ingenio .publisher-navbar li{
-        border-right: 2px solid #51873a;
+        border-right: 2px solid #565656;
 	}
 
 	.content_type_clase_ingenio .publisher-navbar .dropdown button {
 		background: none;
-		color: #51873a;
+		color: #565656;
 	}
 
 	.content_type_clase_ingenio .slider-indicators:after {
@@ -428,11 +428,11 @@
 	}
 
 	.content_type_clase_ingenio .publisher-navbar .dropdown li a {
-		color: #51873a;
+		color: #565656;
 	}
 
 	.content_type_clase_ingenio .publisher-navbar .dropdown .caret {
-		border-color: #51873a transparent transparent transparent;
+		border-color: #565656 transparent transparent transparent;
 		margin-left: 6px;
 
 	}
