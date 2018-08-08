@@ -1,63 +1,4 @@
 /* General */
-/* Fonts */
-
-	@font-face {
-	  font-family: Arial Black;
-	  src: url(fonts/Arial Black.ttf);
-	  font-weight: 100;
-	}
-	@font-face {
-	  font-family: Arial;
-	  src: url(fonts/Arial.ttf);
-
-	}
-	@font-face {
-	  font-family: Avenir;
-	  src: url(fonts/Avenir.ttc);
-
-	}
-	@font-face {
-	  font-family: Calibri;
-	  src: url(fonts/Calibri.ttf);
-	}
-
-	@font-face {
-	  font-family: Candara Bold;
-	  src: url(fonts/Candara Bold.ttf);
-	}
-
-	@font-face {
-	  font-family: Candara;
-	  src: url(fonts/Candara.ttf);
-	}
-
-
-	@font-face {
-	  font-family: LithosPro-Black;
-	  src: url(fonts/LithosPro-Black.otf);
-	  font-weight: 100;
-	}
-	@font-face {
-	  font-family: LithosPro-Regular;
-	  src: url(fonts/LithosPro-Regular.otf);
-	  font-weight: 100;
-	  font-style: italic;
-	}
-
-	@font-face {
-	  font-family:MinionPro-Regular;
-	  src: url(fonts/MinionPro-Regular.otf);
-	}
-
-	@font-face {
-	  font-family: Palatino;
-	  src: url(fonts/Palatino.ttc);
-	}
-
-	@font-face {
-	  font-family: Sacramento-Regular;
-	  src: url(fonts/Sacramento-Regular.ttf);
-	}
 
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,700italic,500italic,500);
@@ -381,7 +322,7 @@
 
 .content_type_clase_ingenio .logo-publisher {
     content: " ";
-    background-image: url(images/01logojuntaextremadura.png)!important;
+    background-image: url(/images/ingenio.png)!important;
     height: 52px;
     background-repeat: no-repeat;
     width: 134px;
@@ -907,20 +848,6 @@ ol.bck-ol.bck-ol-1 li {
 	}
 	
 
-	.bck-box.box-1:before {
-    content: "";
-    position: absolute;
-    padding: 25px;
-    background-size: contain;
-    margin-left: 10px;
-    background-image: url(images/icono0001072018.png);
-    float: left;
-    background-repeat: no-repeat;
-    display: inline-block;
-    border-bottom: 0px;
-
-}
-
 /*caja2*/
 	
 
@@ -951,18 +878,7 @@ ol.bck-ol.bck-ol-1 li {
 	}
 	
 
-.bck-box.box-2:before {
-    content: "";
-    position: absolute;
-    padding: 25px;
-    background-size: contain;
-    margin-left: 10px;
-    background-image: url(images/icono0002072018.png);
-    float: left;
-    background-repeat: no-repeat;
-    display: inline-block;
-    border-bottom: 0px;
-}
+
 	
 /*caja 3*/
 
@@ -977,18 +893,7 @@ ol.bck-ol.bck-ol-1 li {
     font-family: 'Candara',sans-serif;
 }
 
-.bck-box.box-3:before {
-    content: "";
-    position: absolute;
-    padding: 25px;
-    background-size: contain;
-    margin-left: 10px;
-    background-image: url(images/icono0003072018.png);
-    right: 5px;
-    background-repeat: no-repeat;
-    display: inline-block;
-    border-bottom: 0px;
-}
+
 
 .bck-box.box-3.center .bck-content {
     background: #ebeff8;
@@ -1041,29 +946,18 @@ ol.bck-ol.bck-ol-1 li {
 	margin-top: -16px;
 }
 
-.item-container .icon-ordenador:before {
-	background-image: url(images/icono0008072018.png);
+.item-container .icon-exclamacion:before {
+	background-image: url(/images/exclamacion.png);
 }
 
 .item-container .icon-bombilla:before {
-	background-image: url(images/icono0003072018.png);
+	background-image: url(/images/bombilla.png);
 }
 
-.item-container .icon-quimica:before {
-	background-image: url(images/icono0007072018.png);
+.item-container .icon-lupa:before {
+	background-image: url(/images/lupa.png);
 }
 
-.item-container .icon-birrete:before {
-	background-image: url(images/icono0006072018.png);
-}
-
-.item-container .icon-libro:before {
-	background-image: url(images/icono0004072018.png);
-}
-
-.item-container .icon-lapiz:before {
-	background-image: url(images/icono0005072018.png);
-}
 
 /**/
 
