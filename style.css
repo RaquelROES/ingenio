@@ -474,20 +474,42 @@
 
 	.bck-title1 {
     	font-size: 34px;
-    	border-bottom: 1px solid;
+    	margin: 25px 0px;
+    	color: #6a84bc;
 	}
 	
 
-	.bck-title2 { 
-       font-size: 26px;
-       border-bottom: 1px solid;
+	.bck-title2 {
+   		font-size: 26px;
+    	border-bottom: 1px solid #6a84bc;
+    	text-align: right;
+    	color: #000;
+    	margin: 25px 0px;
 	}
 
 
 	.bck-title3 {
-		font-size: 22px;
-       border-bottom: 1px solid;
+	  font-size: 22px;
+      color: #bf0811;
+      margin: 25px 0px;
 	}
+
+	.bck-title3:before {
+    content: "\f105";
+    font-family: 'FontAwesome';
+     }
+
+	.bck-title4 {
+	   color: #f7941d;
+	   font-size: 22px;
+       margin: 25px 0px;
+	}
+
+.bck-title4:before {
+	color: #f7941d;
+    content: "\f005";
+    font-family: 'FontAwesome';
+     }
 
 	.bck-enfasis {
 		color: #0d478f;
