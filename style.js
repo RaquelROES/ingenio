@@ -15,16 +15,18 @@
 			name: 'ingenio',
 			styles: [
 
-				{ name: 'Título de la Unidad', element: 'h4', attributes: { 'class': 'bck-title2'} },
-				{ name: 'Subtítulo Unidad', element: 'h4', attributes: { 'class': 'bck-title3'} },
+				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title1'} },
+				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title2'} },
+				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title3'} },
+				{ name: 'Título 4', element: 'h4', attributes: { 'class': 'bck-title4'} },
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
 				
 				{ name: 'Lista Tick', element: 'ul', attributes: { 'class': 'bck-ul'} },
 				{ name: 'Lista Info', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
-				{ name: 'Lista Título ppal del tema', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
-				{ name: 'Lista Ordenada azul', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
-				{ name: 'Lista Ordenada amarilla', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
+				{ name: 'Lista 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
+				{ name: 'Lista 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
+				{ name: 'Lista 3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
 			
 
 				{ name: 'Tabla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
@@ -38,10 +40,9 @@
 				{ name: 'Icono libro', element: 'span', attributes: { 'class': 'icon icon-libro' } },
 				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapiz' } },
 
-				{ name: 'Caso Práctico', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
-				{ name: 'Caja Autoevaluación', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
-				{ name: 'Caja Compresión:', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } },
-				{ name: 'Caja Recuadros opcionales', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-4' } }
+				{ name: 'Caso verde', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
+				{ name: 'Caja azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
+				{ name: 'Caja morada', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } }
 			]
 		},
 
