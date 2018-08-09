@@ -242,7 +242,23 @@
 		margin: 0px;
         cursor: pointer;
 	}
+	
 /**/
+
+/*TOC*/
+#indice .unit-content .header .title{
+    color: #5860a6;
+}
+
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units ul li.active a {
+    color: #fff;
+    background: #5860a6;
+}
+
+#indice .units ul li {
+    border-radius: 0px;
+    padding: 0;
+}
 
 /* Navbar */
 	.navbar-bottom {
