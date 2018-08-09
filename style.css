@@ -242,7 +242,7 @@
 		margin: 0px;
         cursor: pointer;
 	}
-	
+
 /**/
 
 /*TOC*/
@@ -258,6 +258,10 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
 #indice .units ul li {
     border-radius: 0px;
     padding: 0;
+}
+
+#indice .units ul li.active:not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
+    background: #5860a6;
 }
 
 /* Navbar */
