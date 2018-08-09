@@ -570,7 +570,7 @@ ol.bck-ol.bck-ol-1 li {
     font-weight: bold;
     font-size: 2.0rem;
     text-align: right;
-    color: #6a84bc;
+    color: #bf0811;
     margin-top: -3px;
 }
 
@@ -599,15 +599,15 @@ ol.bck-ol.bck-ol-1 li {
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
 #actividad .popover-content ol.bck-ol-2 li:before,
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-    content: counter(bck-li-counter)" ";
+    content: counter(bck-li-counter, lower-alpha)".";
     width: 22px;
     position: absolute;
     text-align: center!important;
-    color: #fff;
-    background-color: #bf0811;
+    color: #6a84bc;
     font-weight: 400!important;
     font-family: sans-serif;
     font-size: 18px;
+    margin-top: 0px;
 }
 
 /*LISTA ORDENADA 3*/
@@ -632,15 +632,16 @@ ol.bck-ol.bck-ol-1 li {
 #actividad .content .texto_curso ol.bck-ol-3 li:before,
 #actividad .popover-content ol.bck-ol-3 li:before,
 #actividad .content .workspace ul li ol.bck-ol-3 li:before {
-    content: counter(bck-li-counter)" ";
+     content: counter(bck-li-counter, lower-alpha)".";
     width: 22px;
     position: absolute;
     text-align: center!important;
-    color: #000!important;
-    background-color: #fdcd00;
+    color: #bf0811;
     font-weight: 400!important;
     font-family: sans-serif;
     font-size: 18px;
+    margin-top: 0px;
+}
 }
 
 /**/
@@ -1106,4 +1107,3 @@ div.calculo table.marco * {
 .content_type_clase_ingenio .slide_main input {
     border: 1px solid #ccc !important;
 }
-
