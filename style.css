@@ -539,14 +539,14 @@
 
 	.content ol li:before,
 	.cke_contents ol li:before {
-		content: counter(bck-li-counter)') ';
-		position: absolute;
-		margin-left: -30px;
-		font-weight: bold;
-		font-size: 2.0rem;
-		text-align: right;
-		color: #5ebdb2;
-		margin-top: -2px;
+		content: counter(bck-li-counter)'. ';
+   		 position: absolute;
+   		 margin-left: -25px;
+    	 font-weight: bold;
+   		 font-size: 2.0rem;
+   		 text-align: right;
+    	 color: #6a84bc;
+   		 margin-top: -3px;
 	}
 
 
@@ -554,17 +554,9 @@
 /*LISTA ORDENADA 1*/ 
 
 ol.bck-ol.bck-ol-1 li {
-    border-top: 30px solid #5382b2;
-    border-left: 50px solid #5382B9;
-    background: #c4d3d3;
-    padding: 0px 15px;
-    margin-left: 0px;
-    font-weight: bold;
-    font-size: 24px;
-    border-bottom: 1px solid #dc1b16;
-    border-bottom: 2px solid #0d478f;
-    font-family: 'Candara';
-    font-weight: bold;
+    counter-increment: bck-li-counter 1;
+		position: relative;
+		padding-left: 32px;
 }
 
 
@@ -572,19 +564,14 @@ ol.bck-ol.bck-ol-1 li {
 #actividad .content .cke_contents .bck-ol-1 li:before,
 #actividad .popover-content .bck-ol-1 li:before,
 #actividad .content .workspace ul li .bck-ol-1 li:before {
-    content: counter(bck-li-counter)" ";
-    width: 80px;
-    font-size: 60px;
-    margin-top: -30px;
-    height: 64px;
-    padding-top: 2%;
-    text-align: center!important;
-    color: #fff!important;
-    background-color: #dc1b16;
-    font-weight: 600!important;
-    font-family: sans-serif;
-    right: 0px;
-    border-left: 1px solid #fff;
+    content: counter(bck-li-counter)'. ';
+    position: absolute;
+    margin-left: -25px;
+    font-weight: bold;
+    font-size: 2.0rem;
+    text-align: right;
+    color: #6a84bc;
+    margin-top: -3px;
 }
 
 
@@ -617,7 +604,7 @@ ol.bck-ol.bck-ol-1 li {
     position: absolute;
     text-align: center!important;
     color: #fff;
-    background-color: #0065a8;
+    background-color: #bf0811;
     font-weight: 400!important;
     font-family: sans-serif;
     font-size: 18px;
@@ -717,12 +704,10 @@ ol.bck-ol.bck-ol-1 li {
     width: 20px;
     margin-top: 0px;
     text-align: center;
-    border-right: 1px solid #f9bb00;
-    border-bottom: 1px solid #f9bb00;
     margin-left: -23px;
     font-family: 'FontAwesome';
     content: "\f14a";
-    color: #0065a8;
+    color: #6a84bc;
     background: #fff;
     border-radius: 0px;
 }
