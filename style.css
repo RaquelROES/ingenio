@@ -793,7 +793,7 @@ ol.bck-ol.bck-ol-1 li {
 		margin-bottom: 20px;
 		background: #fff;
 	}
-	
+
 	.bck-box.center {
 		margin-left: auto;
 		margin-right: auto;
@@ -808,89 +808,70 @@ ol.bck-ol.bck-ol-1 li {
 
 /*caja caso verde*/
 
-	.bck-box.box-1 {
-		background: #f8bb00;
-    	padding-top: 7px;
-    	position: relative;
-  	  	margin-top: 40px;
-	}
-
 	
 	.bck-box.box-1 .bck-title {
-		color: #000;
-   		font-size: 2.4rem;
-	    background-color: #ffec94;
+		color: #fff;
+	    font-size: 2.4rem;
+	    padding: 0px 20px;
+	    padding-top: 10px;
+	    background-color: #95ba6f;
+	    border-top-left-radius: 10px;
+	    border-top-right-radius: 10px;
 	    width: fit-content;
-	    margin-left: 70px;
-	    padding: 0px 15px;
-	    margin-bottom: -15px;
-	    font-family: 'Candara',sans-serif;
+	    clear: both;
 	}
 
 	.bck-box.box-1.center .bck-content{
-		background-color: #fffcd6;
-    	padding: 35px 10px 10px 10px;
-    	border-left: 10px solid #fff;
-   		border-right: 10px solid #fff;
-   		font-family: 'Candara',sans-serif;
+		padding: 35px 10px 10px 10px;
+   		border-left: 3px solid #95ba6f;
+    	border-bottom: 2px solid #95ba6f;
+    	margin-top: -15px;
 	}
 	
 
 /*caja azul*/
 	
 
-.bck-box.box-2 {
-		background: #12478f;
-    	padding-top: 7px;
-    	position: relative;
-  	  	margin-top: 40px;
-	}
-
-	
 .bck-box.box-2 .bck-title {
-		color: #000;
-   		font-size: 2.4rem;
-	    background-color: #75c6f0;
+		color: #fff;
+	    font-size: 2.4rem;
+	    padding: 0px 20px;
+	    padding-top: 10px;
+	    background-color: #70b7e7;
+	    border-top-left-radius: 10px;
+	    border-top-right-radius: 10px;
 	    width: fit-content;
-	    margin-left: 70px;
-	    padding: 0px 15px;
-	    margin-bottom: -15px;
-	    font-family: 'Calibri',sans-serif;
+	    clear: both;
 	}
 
-.bck-box.box-2.center .bck-content{
-		background-color: #deeffc;
-    	padding: 35px 10px 10px 10px;
-    	border-left: 10px solid #fff;
-   		border-right: 10px solid #fff;
+	.bck-box.box-2.center .bck-content{
+		padding: 35px 10px 10px 10px;
+   		border-left: 3px solid #70b7e7;
+    	border-bottom: 2px solid #70b7e7;
+    	margin-top: -15px;
 	}
-	
-
 
 	
 /*caja morada*/
 
-.bck-box.box-3.center .bck-title {
-    background: #a4bade;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 400;
-    padding: 20px 10px 0px 16px;
-    border-left: 10px solid #a4bade;
-    margin-bottom: -15px;
-    font-family: 'Candara',sans-serif;
-}
+.bck-box.box-3 .bck-title {
+		color: #fff;
+	    font-size: 2.4rem;
+	    padding: 0px 20px;
+	    padding-top: 10px;
+	    background-color: #966b97;
+	    border-top-left-radius: 10px;
+	    border-top-right-radius: 10px;
+	    width: fit-content;
+	    clear: both;
+	}
 
-
-
-.bck-box.box-3.center .bck-content {
-    background: #ebeff8;
-    padding: 15px;
-    border-left: 10px solid #a4bade;
-    font-family: 'Calibri',sans-serif;
-}
-
-
+.bck-box.box-3.center .bck-content{
+		padding: 35px 10px 10px 10px;
+   		border-left: 3px solid #966b97;
+    	border-bottom: 2px solid #966b97;
+    	margin-top: -15px;
+	}
 
 
 /* Icons */
