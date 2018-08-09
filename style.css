@@ -938,15 +938,15 @@ ol.bck-ol.bck-ol-1 li {
 }
 
 .item-container .icon-exclamacion:before {
-	background-image: url(/images/exclamacion.png);
+	background-image: url(images/exclamacion.png);
 }
 
 .item-container .icon-bombilla:before {
-	background-image: url(/images/bombilla.png);
+	background-image: url(images/bombilla.png);
 }
 
 .item-container .icon-lupa:before {
-	background-image: url(/images/lupa.png);
+	background-image: url(images/lupa.png);
 }
 
 
