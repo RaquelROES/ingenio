@@ -707,15 +707,15 @@ ol.bck-ol.bck-ol-1 li {
 #actividad .content .cke_contents ul li:before,
 #actividad .content .texto_curso ul li:before,
 #actividad .content .workspace ul li ul li:before {
-	content: "";
+    content: "";
     position: absolute;
-	height: 6px;
+    height: 6px;
     width: 6px;
     background-color: #000;
-    margin-top: 12px;
+    margin-top: 7px;
     margin-left: -15px;
-	margin-right: 7px;
-	border-radius: 50%;
+    margin-right: 7px;
+    border-radius: 50%;
 }
 
 #actividad .content .cke_contents .bck-ul li:before,
